@@ -34,7 +34,7 @@ function getServers() {
         };
 
         xmlhttp.open('GET', url, true);
-        xmlhttp.setRequestHeader('Content-Type", "application/json');
+        xmlhttp.setRequestHeader('Content-Type', 'application/json');
         xmlhttp.send();
     }
 
