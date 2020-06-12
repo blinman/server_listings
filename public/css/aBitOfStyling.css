@@ -1,0 +1,76 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button {
+    margin: 10px;
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: rgb(110, 214, 114);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px 3px rgba(110, 214, 114, 0.2);
+}
+
+.button:hover {
+    background-color: #478f4a
+}
+
+.button:active {
+    background-color: #346836;
+    box-shadow: 0 5px 3px rgba(110, 214, 114, 0.9);
+    transform: translateY(4px);
+}
+
+.table-holder {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    max-width: 600px;
+}
+
+table td,
+table th {
+    border: 2px solid rgb(192, 192, 192);
+    text-align: center;
+    padding: 5px;
+}
+
+table th {
+    text-transform: uppercase;
+    background-color: rgb(198, 226, 199)
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%;
+    }
+}
+
+#sort-name-button {
+    max-width: 220px;
+}
+
+#sort-dist-button {
+    max-width: 220px;
+}
